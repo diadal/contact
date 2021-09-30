@@ -1,6 +1,6 @@
 {
   "name": "@diadal/contacts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Contacts Plugin for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,7 +13,7 @@
     "ios/Plugin/",
     "DiadalContacts.podspec"
   ],
-  "author": "Diadal Nigeria Ltd",
+  "author": "Diadal",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -75,5 +75,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@diadal"
   }
 }
