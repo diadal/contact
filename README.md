@@ -1,27 +1,21 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
 
 <h3 align="center">Contacts</h3>
-<p align="center"><strong><code>@capacitor-community/contacts</code></strong></p>
+<p align="center"><strong><code>@diadal/contact</code></strong></p>
 <p align="center">
-  Capacitor community plugin for fetching contacts.
+  Capacitor3 plugin for fetching contacts.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/maintenance/yes/2021?style=flat-square" />
-  <a href="https://github.com/capacitor-community/contacts/actions?query=workflow%3A%22Test+and+Build+Plugin%22"><img src="https://img.shields.io/github/workflow/status/capacitor-community/contacts/Test%20and%20Build%20Plugin?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@capacitor-community/contacts"><img src="https://img.shields.io/npm/l/@capacitor-community/contacts?style=flat-square" /></a>
+  <a href="https://github.com/diadal/contact/actions?query=workflow%3A%22Test+and+Build+Plugin%22"><img src="https://img.shields.io/github/workflow/status/diadal/contact/Test%20and%20Build%20Plugin?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@diadal/contact"><img src="https://img.shields.io/npm/l/@diadal/contact?style=flat-square" /></a>
 <br>
-  <a href="https://www.npmjs.com/package/@capacitor-community/contacts"><img src="https://img.shields.io/npm/dw/@capacitor-community/contacts?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@capacitor-community/contacts"><img src="https://img.shields.io/npm/v/@capacitor-community/contacts?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@diadal/contact"><img src="https://img.shields.io/npm/dw/@diadal/contact?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@diadal/contact"><img src="https://img.shields.io/npm/v/@diadal/contact?style=flat-square" /></a>
 
 
-## Maintainers
 
-| Maintainer                           | GitHub                                                                                       | Social                       | Sponsoring Company |
-| ------------------------------------ | -------------------------------------------------------------------------------------------- | ---------------------------- | ------------------ |
-| Jonathan Gerber / Byrds & Bytes GmbH | [idrimi](https://github.com/idrimi) / [Byrds & Bytes GmbH](https://github.com/byrdsandbytes) | [byrds.ch](https://byrds.ch) | Byrds & Bytes GmbH |
-
-Maintenance Status: Actively Maintained
 
 ## Demo
 
@@ -56,7 +50,7 @@ npx cap add electron
 Install:
 
 ```
-npm i --save @capacitor-community/contacts
+npm i --save @diadal/contact
 ```
 
 Sync:

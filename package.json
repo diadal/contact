@@ -1,7 +1,7 @@
 {
   "name": "@diadal/contacts",
-  "version": "0.0.2",
-  "description": "Contacts Plugin for Capacitor",
+  "version": "0.0.3",
+  "description": "Contacts3 Plugin for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diadal/contacts.git"
+    "url": "git+https://github.com/diadal/contact.git"
   },
   "bugs": {
-    "url": "https://github.com/diadal/contacts/issues"
+    "url": "https://github.com/diadal/contact/issues"
   },
   "keywords": [
     "capacitor",
