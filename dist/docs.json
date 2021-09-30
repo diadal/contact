@@ -1,0 +1,171 @@
+{
+  "api": {
+    "name": "ContactsPlugin",
+    "slug": "contactsplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "getPermissions",
+        "signature": "() => Promise<PermissionStatus>",
+        "parameters": [],
+        "returns": "Promise<PermissionStatus>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "PermissionStatus"
+        ],
+        "slug": "getpermissions"
+      },
+      {
+        "name": "getContacts",
+        "signature": "() => Promise<{ contacts: Contact[]; }>",
+        "parameters": [],
+        "returns": "Promise<{ contacts: Contact[]; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "Contact"
+        ],
+        "slug": "getcontacts"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "PermissionStatus",
+      "slug": "permissionstatus",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "granted",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "slug": "contact",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "contactId",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "displayName",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "phoneNumbers",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "PhoneNumber"
+          ],
+          "type": "PhoneNumber[]"
+        },
+        {
+          "name": "emails",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "EmailAddress"
+          ],
+          "type": "EmailAddress[]"
+        },
+        {
+          "name": "photoThumbnail",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "organizationName",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "organizationRole",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "birthday",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        }
+      ]
+    },
+    {
+      "name": "PhoneNumber",
+      "slug": "phonenumber",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "label",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "number",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        }
+      ]
+    },
+    {
+      "name": "EmailAddress",
+      "slug": "emailaddress",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "label",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "address",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
