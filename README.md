@@ -16,12 +16,6 @@
 
 
 
-
-## Demo
-
-You can find a working Ionic App using the Byrds' Capacitor Contacts plugin here:
-https://github.com/byrdsandbytes/capContactsDemo/tree/capacitor-community
-
 ## Prerequisites
 
 Setup your project with Capacitor. For details check here: https://capacitorjs.com
