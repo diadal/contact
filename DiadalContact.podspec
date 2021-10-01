@@ -1,7 +1,7 @@
 
   Pod::Spec.new do |s|
-    s.name = 'DiadalContacts'
-    s.version = '0.0.1'
+    s.name = 'DiadalContact'
+    s.version = '0.0.5'
     s.summary = 'Contacts Plugin for Capacitor'
     s.license = 'MIT'
     s.homepage = 'https://github.com/diadal/contacts'
