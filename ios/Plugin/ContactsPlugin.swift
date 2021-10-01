@@ -59,7 +59,6 @@ public class ContactsPlugin: CAPPlugin {
                                 "label": labelToAppend,
                                 "number": numberToAppend
                             ])
-                            print(phoneNumbers)
                         }
                         for email in contact.emailAddresses {
                             let emailToAppend = email.value as String
