@@ -1,6 +1,6 @@
 {
   "name": "@diadal/contact",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Contacts3 Plugin for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -77,6 +77,6 @@
     }
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@diadal"
+    "access": "public"
   }
 }
