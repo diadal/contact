@@ -1,7 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', { value: true });
-
 var core = require('@capacitor/core');
 
 const Contacts$1 = core.registerPlugin('Contacts', {
@@ -26,8 +24,8 @@ const Contacts = new ContactsPluginWeb();
 
 var web = /*#__PURE__*/Object.freeze({
     __proto__: null,
-    ContactsPluginWeb: ContactsPluginWeb,
-    Contacts: Contacts
+    Contacts: Contacts,
+    ContactsPluginWeb: ContactsPluginWeb
 });
 
 exports.Contacts = Contacts$1;

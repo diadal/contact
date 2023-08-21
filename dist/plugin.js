@@ -23,15 +23,13 @@ var capacitorContacts = (function (exports, core) {
 
     var web = /*#__PURE__*/Object.freeze({
         __proto__: null,
-        ContactsPluginWeb: ContactsPluginWeb,
-        Contacts: Contacts
+        Contacts: Contacts,
+        ContactsPluginWeb: ContactsPluginWeb
     });
 
     exports.Contacts = Contacts$1;
 
-    Object.defineProperty(exports, '__esModule', { value: true });
-
     return exports;
 
-}({}, capacitorExports));
+})({}, capacitorExports);
 //# sourceMappingURL=plugin.js.map
