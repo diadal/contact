@@ -1,6 +1,6 @@
 {
   "name": "@diadal/contact",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "description": "Contacts3 Plugin for Capacitor",
   "main": "dist/plugin.cjs.js",
@@ -63,7 +63,7 @@
     "@rollup/plugin-typescript": "^11.1.2"
   },
   "peerDependencies": {
-    "@capacitor/core": "^5.2.3"
+    "@capacitor/core": "^6.0.0"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
