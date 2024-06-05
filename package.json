@@ -1,6 +1,6 @@
 {
   "name": "@diadal/contact",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "module",
   "description": "Contacts3 Plugin for Capacitor",
   "main": "dist/plugin.cjs.js",

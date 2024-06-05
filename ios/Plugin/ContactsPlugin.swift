@@ -2,8 +2,8 @@
 //  Plugin.swift
 //
 //
-//  Created by Jonathan Gerber on 15.02.20.
-//  Copyright © 2020 Byrds & Bytes GmbH. All rights reserved.
+//  Created by Diadal on 04.06.24..
+//  Copyright © 2024 Diadal Nigeria Ltd. All rights reserved.
 
 import Foundation
 import Capacitor

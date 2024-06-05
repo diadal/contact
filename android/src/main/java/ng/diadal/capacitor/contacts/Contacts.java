@@ -1,4 +1,4 @@
-package ch.byrds.capacitor.contacts;
+package ng.diadal.capacitor.contacts;
 
 import android.Manifest;
 import android.content.ContentResolver;
